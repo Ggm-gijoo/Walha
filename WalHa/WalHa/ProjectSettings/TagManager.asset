@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - ground
+  - Slash
+  - Enemy
+  - Boss
+  - Slash_Skill
+  - AttackPoint
+  - EscapePoint
+  - EscapePoint1
+  - EscapePoint2
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Player
+  - Enemy
+  - ground
+  - Projectile
+  - AttackPoint
+  - Slash
+  - Distortion
+  - Wall
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Object
+    uniqueID: 2834306787
+    locked: 0
+  - name: Distortion
+    uniqueID: 3736155191
+    locked: 0
+  - name: Over
+    uniqueID: 1648728839
+    locked: 0
+  - name: Canvas
+    uniqueID: 2259281255
+    locked: 0

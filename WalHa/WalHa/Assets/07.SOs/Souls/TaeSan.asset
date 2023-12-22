@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6723c2f1b5bb5c34a93b6d8dc5d24e8d, type: 3}
+  m_Name: TaeSan
+  m_EditorClassIdentifier: 
+  soulName: "\uD0DC\uC0B0"
+  soulSprites:
+    array:
+    - Key: 0
+      Value: {fileID: 21300000, guid: 0b7890c37e398214fae875f3ecd17e33, type: 3}
+    - Key: 1
+      Value: {fileID: 0}
+    - Key: 2
+      Value: {fileID: 0}

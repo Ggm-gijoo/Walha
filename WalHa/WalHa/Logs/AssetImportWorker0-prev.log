@@ -1,0 +1,1398 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.2f1 (d74737c6db50) revision 14108471'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ko' Physical Memory: 16303 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Users\USER\Documents\2022.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/USER/Documents/WalHa/WalHa
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+13113
+Successfully changed project path to: C:/Users/USER/Documents/WalHa/WalHa
+C:/Users/USER/Documents/WalHa/WalHa
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [1524] Host "[IP] 172.31.3.228 [Port] 0 [Flags] 2 [Guid] 1641176032 [EditorId] 1641176032 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OHD6DA9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [1524] Host "[IP] 172.31.3.228 [Port] 0 [Flags] 2 [Guid] 1641176032 [EditorId] 1641176032 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OHD6DA9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 18.95 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.2f1 (d74737c6db50)
+[Subsystems] Discovering subsystems at path C:/Users/USER/Documents/2022.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/USER/Documents/WalHa/WalHa/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f51)
+    Vendor:   NVIDIA
+    VRAM:     5968 MB
+    Driver:   31.0.15.3118
+Initialize mono
+Mono path[0] = 'C:/Users/USER/Documents/2022.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/USER/Documents/2022.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Users/USER/Documents/2022.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Users/USER/Documents/2022.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010772 seconds.
+- Loaded All Assemblies, in  0.462 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.403 seconds
+Domain Reload Profiling: 865ms
+	BeginReloadAssembly (133ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (184ms)
+		LoadAssemblies (132ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (179ms)
+			TypeCache.Refresh (177ms)
+				TypeCache.ScanAssembly (160ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (404ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (316ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (199ms)
+			ProcessInitializeOnLoadMethodAttributes (88ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\USER\Documents\WalHa\WalHa\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\USER\Documents\WalHa\WalHa\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.386 seconds
+Refreshing native plugins compatible for Editor in 10.25 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00025] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:22 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0057d] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00012] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00044] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x00037] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0003f] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:48 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x0000d] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.258 seconds
+Domain Reload Profiling: 3641ms
+	BeginReloadAssembly (215ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (1032ms)
+		LoadAssemblies (585ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (566ms)
+			TypeCache.Refresh (485ms)
+				TypeCache.ScanAssembly (467ms)
+			ScanForSourceGeneratedMonoScriptInfo (58ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (2259ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1920ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (267ms)
+			ProcessInitializeOnLoadAttributes (1505ms)
+			ProcessInitializeOnLoadMethodAttributes (126ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 10.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7102 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 111 unused Assets / (1.6 MB). Loaded Objects now: 7621.
+Memory consumption went from 308.0 MB to 306.5 MB.
+Total: 23.361600 ms (FindLiveObjects: 0.975000 ms CreateObjectMapping: 0.823000 ms MarkObjects: 20.687800 ms  DeleteObjects: 0.874200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 448794.388763 seconds.
+  path: Assets/03.Sprites/Bar/Mpbar.png
+  artifactKey: Guid(656d6bda3c3a66245855f9ecca82b6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Sprites/Bar/Mpbar.png using Guid(656d6bda3c3a66245855f9ecca82b6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575dcfcfd79789bb908449e139acc6ad') in 0.017820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 71.768786 seconds.
+  path: Assets/03.Sprites/Bar/MpbarEdge.png
+  artifactKey: Guid(2aa6184296a40114895a03d3826d0d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Sprites/Bar/MpbarEdge.png using Guid(2aa6184296a40114895a03d3826d0d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b318bf24b945deb90221b92dd4792cc6') in 0.003193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 79.446255 seconds.
+  path: Assets/06.Effects/Etc/Material/LerpColor/PMPLerpColor 1.mat
+  artifactKey: Guid(946ef49f798c5e149aa8b2abe4ef5b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/Material/LerpColor/PMPLerpColor 1.mat using Guid(946ef49f798c5e149aa8b2abe4ef5b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb6988eb5a0b45bbba59ac37f94fd8bd') in 0.001389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.910038 seconds.
+  path: Assets/06.Effects/Etc/Material/LerpColor/PMPEdgeLerpColor 1.mat
+  artifactKey: Guid(946ef49f798c5e149aa8b2abe4ef5b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/Material/LerpColor/PMPEdgeLerpColor 1.mat using Guid(946ef49f798c5e149aa8b2abe4ef5b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25415fac09a53b6c3833eb697c0eb457') in 0.001202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 52.464408 seconds.
+  path: Assets/06.Effects/Etc/Material/LerpColor/PMPLerpColor 1.mat
+  artifactKey: Guid(733004b3534d0c545ad0c7ef97b559fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/Material/LerpColor/PMPLerpColor 1.mat using Guid(733004b3534d0c545ad0c7ef97b559fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235bde54ad3d4ffe2c26245e361d4006') in 0.002195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.752794 seconds.
+  path: Assets/06.Effects/Etc/Material/LerpColor/PMPEdgeLerpColor.mat
+  artifactKey: Guid(733004b3534d0c545ad0c7ef97b559fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/Material/LerpColor/PMPEdgeLerpColor.mat using Guid(733004b3534d0c545ad0c7ef97b559fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea8048f2b3dc536bd7b13a038cb4fcb9') in 0.001077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 91.025220 seconds.
+  path: Assets/06.Effects/Etc/Material/LerpColor/PMPEdgeLerpColor.mat
+  artifactKey: Guid(733004b3534d0c545ad0c7ef97b559fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/Material/LerpColor/PMPEdgeLerpColor.mat using Guid(733004b3534d0c545ad0c7ef97b559fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35fc47304a5ce5b4b056729c45baf97a') in 0.001113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\USER\Documents\WalHa\WalHa\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\USER\Documents\WalHa\WalHa\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.114 seconds
+Refreshing native plugins compatible for Editor in 6.50 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Gentleland.Utils.SteampunkUI.OpenWindowsOnLoad:.cctor () (at Assets/Gentleland/SteampunkUI/Utils/Editor/OpenWindowsOnLoad.cs:23)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Gentleland/SteampunkUI/Utils/Editor/OpenWindowsOnLoad.cs line 23]
+
+UnityEngine.UnityException: Creating asset at path Assets/GentlelandSettings/GentlelandSettings_SteampunkUI.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at Gentleland.Utils.SteampunkUI.OpenWindowsOnLoad..cctor () [0x00041] in C:\Users\USER\Documents\WalHa\WalHa\Assets\Gentleland\SteampunkUI\Utils\Editor\OpenWindowsOnLoad.cs:23 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00025] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:22 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0057d] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00012] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00044] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x00037] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00013] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x0000d] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.319 seconds
+Domain Reload Profiling: 4430ms
+	BeginReloadAssembly (238ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (785ms)
+		LoadAssemblies (469ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (411ms)
+			TypeCache.Refresh (396ms)
+				TypeCache.ScanAssembly (380ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (3320ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1312ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (15ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (292ms)
+			ProcessInitializeOnLoadAttributes (840ms)
+			ProcessInitializeOnLoadMethodAttributes (146ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (50ms)
+Refreshing native plugins compatible for Editor in 8.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6884 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (1.6 MB). Loaded Objects now: 7642.
+Memory consumption went from 267.4 MB to 265.8 MB.
+Total: 23.954500 ms (FindLiveObjects: 0.797000 ms CreateObjectMapping: 0.830900 ms MarkObjects: 21.506000 ms  DeleteObjects: 0.819200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 238.773007 seconds.
+  path: Assets/06.Effects/Etc/Material/LerpColor/PMPLerpColor.mat
+  artifactKey: Guid(06383156e9c1c3640a6803e40e11f95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/Material/LerpColor/PMPLerpColor.mat using Guid(06383156e9c1c3640a6803e40e11f95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '907f9a9c618527209f06b705ce049dab') in 0.005073 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.005737 seconds.
+  path: Assets/06.Effects/Etc/Material/LerpColor/PMPLerpColor.mat
+  artifactKey: Guid(06383156e9c1c3640a6803e40e11f95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/Material/LerpColor/PMPLerpColor.mat using Guid(06383156e9c1c3640a6803e40e11f95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c83650c6b4ed0fc15440001079bac7') in 0.001147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 26.802857 seconds.
+  path: Assets/06.Effects/Etc/Material/LerpColor/PMPLerpColor.mat
+  artifactKey: Guid(06383156e9c1c3640a6803e40e11f95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/Material/LerpColor/PMPLerpColor.mat using Guid(06383156e9c1c3640a6803e40e11f95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd2e12e6267e4ed78801c2354fc66c6') in 0.001393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 72.895765 seconds.
+  path: Assets/06.Effects/Etc/Material/LerpColor/PMPEdgeLerpColor.mat
+  artifactKey: Guid(733004b3534d0c545ad0c7ef97b559fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/Material/LerpColor/PMPEdgeLerpColor.mat using Guid(733004b3534d0c545ad0c7ef97b559fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8591023ddde91bcf527dbb6ca21803ae') in 0.001281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 87.944621 seconds.
+  path: Assets/01.Scripts/Player/PlayerController.cs
+  artifactKey: Guid(001b4912ac19d6146be3004b2d087fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01.Scripts/Player/PlayerController.cs using Guid(001b4912ac19d6146be3004b2d087fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b1a8a3a01eba2e3c266c1aed7519d69') in 0.000600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\USER\Documents\WalHa\WalHa\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\USER\Documents\WalHa\WalHa\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.535 seconds
+Refreshing native plugins compatible for Editor in 10.97 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Gentleland.Utils.SteampunkUI.OpenWindowsOnLoad:.cctor () (at Assets/Gentleland/SteampunkUI/Utils/Editor/OpenWindowsOnLoad.cs:23)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Gentleland/SteampunkUI/Utils/Editor/OpenWindowsOnLoad.cs line 23]
+
+UnityEngine.UnityException: Creating asset at path Assets/GentlelandSettings/GentlelandSettings_SteampunkUI.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at Gentleland.Utils.SteampunkUI.OpenWindowsOnLoad..cctor () [0x00041] in C:\Users\USER\Documents\WalHa\WalHa\Assets\Gentleland\SteampunkUI\Utils\Editor\OpenWindowsOnLoad.cs:23 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00025] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:22 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0057d] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00012] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00044] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x00037] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00013] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x0000d] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.397 seconds
+Domain Reload Profiling: 4923ms
+	BeginReloadAssembly (284ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (72ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (1092ms)
+		LoadAssemblies (710ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (507ms)
+			TypeCache.Refresh (470ms)
+				TypeCache.ScanAssembly (451ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (3398ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1250ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (258ms)
+			ProcessInitializeOnLoadAttributes (827ms)
+			ProcessInitializeOnLoadMethodAttributes (135ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (53ms)
+Refreshing native plugins compatible for Editor in 8.10 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6884 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (1.6 MB). Loaded Objects now: 7661.
+Memory consumption went from 267.4 MB to 265.8 MB.
+Total: 19.577000 ms (FindLiveObjects: 0.717500 ms CreateObjectMapping: 0.717900 ms MarkObjects: 17.534700 ms  DeleteObjects: 0.605800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\USER\Documents\WalHa\WalHa\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\USER\Documents\WalHa\WalHa\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  6.634 seconds
+Refreshing native plugins compatible for Editor in 5.43 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Gentleland.Utils.SteampunkUI.OpenWindowsOnLoad:.cctor () (at Assets/Gentleland/SteampunkUI/Utils/Editor/OpenWindowsOnLoad.cs:23)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Gentleland/SteampunkUI/Utils/Editor/OpenWindowsOnLoad.cs line 23]
+
+UnityEngine.UnityException: Creating asset at path Assets/GentlelandSettings/GentlelandSettings_SteampunkUI.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at Gentleland.Utils.SteampunkUI.OpenWindowsOnLoad..cctor () [0x00041] in C:\Users\USER\Documents\WalHa\WalHa\Assets\Gentleland\SteampunkUI\Utils\Editor\OpenWindowsOnLoad.cs:23 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00025] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:22 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0057d] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00012] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00044] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x00037] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00013] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x0000d] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 29.607 seconds
+Domain Reload Profiling: 36238ms
+	BeginReloadAssembly (257ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (272ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (6052ms)
+		LoadAssemblies (5343ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (824ms)
+			TypeCache.Refresh (808ms)
+				TypeCache.ScanAssembly (786ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (29607ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1341ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (286ms)
+			ProcessInitializeOnLoadAttributes (893ms)
+			ProcessInitializeOnLoadMethodAttributes (136ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (50ms)
+Refreshing native plugins compatible for Editor in 10.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6884 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (1.6 MB). Loaded Objects now: 7680.
+Memory consumption went from 267.4 MB to 265.9 MB.
+Total: 20.884000 ms (FindLiveObjects: 0.598400 ms CreateObjectMapping: 0.662400 ms MarkObjects: 18.942700 ms  DeleteObjects: 0.679300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1481.593706 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e9c7afad11e27622d75dbed302aecd3') in 0.030997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 12.950552 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d8be670f1866e94c7a6d84422776a3') in 0.002652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 2.629676 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd42b781bec244afe9f8d226bcb4ef465') in 0.003160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 2.044943 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c39e52db8f78e3157e64f78f16e2389b') in 0.003344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 6.841209 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a372431661c3e60057a9051f3568b137') in 0.003953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 23.388649 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a868d192d5224cb561411a0298cf41') in 0.002508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 1.401204 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f1b526867f092e85fc8f1d83956843') in 0.004193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 12.392707 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '130031b728d3e581fd4a50e561a1ba9b') in 0.003846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 25.598714 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '784111b139df8f21c4c6eda7a362809a') in 0.002763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 7.096373 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b482ef23639afe4593bf6a01fe3848') in 0.002775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 16.973676 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c58b8b2fa19fba61aa98d1ac4c7a09ae') in 0.003456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 12.264776 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf826547f6604e3668dde7e8ed9bc9c') in 0.003994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 11.368255 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd2b1805b43b7f9695b2c25bc0973b95') in 0.002600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (1.5 MB). Loaded Objects now: 7680.
+Memory consumption went from 161.0 MB to 159.5 MB.
+Total: 19.028700 ms (FindLiveObjects: 0.582500 ms CreateObjectMapping: 0.624400 ms MarkObjects: 17.277700 ms  DeleteObjects: 0.542500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 67.201008 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a162a5be18f804434e2cea50a20dbffc') in 0.015385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 39.918312 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66c01f111ea96bfa241b4acabcafcce7') in 0.003911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 5.537303 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00cb16962edb6ba4ad5ff89360c871d0') in 0.004361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 7.573820 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45af85f4f375e49fdd613c1ba7a6e5cf') in 0.004340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 7.248538 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0a7d4f6cd29f8d8344cc547060314b5') in 0.003581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 5.132066 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '106843a158b910b6db4ac28ab32713de') in 0.003154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 6.108682 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c7d662570b438042d2f4a75006c6da') in 0.004330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 7.281237 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c495bf584f66e4c1375a48d823a5b9c') in 0.003603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 12.060941 seconds.
+  path: Assets/06.Effects/Etc/Material/LerpColor/PMPEdgeLerpColor.mat
+  artifactKey: Guid(733004b3534d0c545ad0c7ef97b559fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/Material/LerpColor/PMPEdgeLerpColor.mat using Guid(733004b3534d0c545ad0c7ef97b559fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6552af3e2f120dab9f9ae10ee542c6e7') in 0.001602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 29.162462 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce1ad19d6e759ce31ac84ee23ea65107') in 0.003785 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 7.531252 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb854de8dd451d94c3095c3ac512ea3') in 0.003313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 29.230121 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa648c5b06a1fddf1b86f1165757b3e') in 0.002793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 16.038421 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20473602459b25dbb17d02641380d246') in 0.003305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 3.600976 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc25e9c42d029e57ce5291e9deb35f4') in 0.002621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 24.790214 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e70b94b279920a496db1bf28df4bd8') in 0.002789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 19.080782 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f064f3ccd45c7e1d4c94ad0bba9b93ed') in 0.003094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 5.818898 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf5fe51434230c02b533f465c80f1ea') in 0.002578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 509.729475 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8435eb5408516614ea6f5d631f8aeba7') in 0.004398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.361516 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51cc87d2b6fc1dd665aee1ff634c2293') in 0.003413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 14.199629 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50dad677fbb5af80408bcfbcb14bafaa') in 0.002739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 74.022938 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0901b48884147e8c16e481cad3f59d7') in 0.004444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 13.474317 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37992147a6b767b9798ef2b64f854b36') in 0.002881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 17.805792 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96ac895111283f0812f4acfa29d19100') in 0.003109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 3.117685 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb30d72820cba83c30984ca028744d4') in 0.002853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 14.062390 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bddd051264764a3df792ca204aa419c1') in 0.002714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 2.604946 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b87e975a83a4a975f18eaf0eb7946f5') in 0.002569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 35.420033 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3c0a5bc648b20677a838de7461ce46') in 0.005821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 32.267723 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '894509cc0a4b458e1ba15caff45eada9') in 0.003402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 5.342070 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413ec3759fba87b25dc945d189f62af5') in 0.002556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 36.781771 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b7556257c865b28db6a9f826119e26') in 0.003796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 25.171516 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a45871d5f0ac8dd18af42cade6d2acd') in 0.004401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 34.413843 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f911bdda2d68fe9d9a57672e8b6ce15c') in 0.004326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 8.818936 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39879f9ecb47c7d5b189e6cd19340046') in 0.003097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 5.399074 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371d56dfdacdce48136805745064f510') in 0.004524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 42.879961 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d9f061bc23530c5c43383061ccc405') in 0.002848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 5.820941 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a979ccec6ceb659634a1a5b2e59e52') in 0.002877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 6.589103 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868843b3719ca210e6dd6d4e16e1c2e6') in 0.004640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 8.855516 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8416ffaa6d94925578d68e618cca2dfa') in 0.002848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 6.081621 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e20f9d68c424b8472d5ef0612523d2c3') in 0.003025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 8.428838 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb1d149861de527ee9f1e880d2cbeeb6') in 0.002586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 5.697804 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aab3d5e1b596cc8a87ca0e3919bed08') in 0.003422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 113.669214 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f03f61c9a24aebe3dbeb728690c496ff') in 0.003587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 42.755476 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ec6b76f446c0163bd539072305f251') in 0.002769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 4.082759 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0e22a39b88e93f099187efcfb181992') in 0.003128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 23.410827 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e756038330cc66bec009f96a6f11bd') in 0.003053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 2.943376 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058afe8017e091abaea2619109d81b2f') in 0.002772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 41.527396 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ae23cbfe885e8ecef8a50b9121625a') in 0.003361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.582117 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007a7238f49e2a45580896441cdac693') in 0.010834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.699670 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '773ad9c4ae216a03928acaea3e7faefe') in 0.002830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 5.557680 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8cb07c7ff32525b2fe9be968015ef5') in 0.003281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.441175 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f65aaa11248809ccdeb68bc874157d4a') in 0.003899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 4.703697 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a8516aa4f26f332c81701897ca8218') in 0.004243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 2.524314 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00e11958a511d0b51e66871efba0901') in 0.004663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 109.088792 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '983b54b76c3a320c9ba9cd01cc4b9291') in 0.004881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 439.370583 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce16839b347f53a169f0375c170db3bc') in 0.004691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 3.977571 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f91f6cd945f9ca244f6b02bf1bae197') in 0.005581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 31.457615 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a18ed4ce37c92d8e097adaff0dd5c5c') in 0.004401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 67.243226 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76bff3823252deb0dbcc5be131613f74') in 0.004988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 3.703065 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a0be7f8424a29374aa9dc3f2a1ec5d') in 0.005884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 112.561061 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71da4009ecbe02f9c8e1aa34e61157bc') in 0.008443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 8.242664 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3507619d594706f278349ce1d96ed9a6') in 0.004850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 7.432445 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c400ddd6835baedeac2652ccf167cd3') in 0.003715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 317.480582 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea703ed7500e7e4dbf8c91929502c71c') in 0.005725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 180.541917 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '259ccd45e1db2658c4781930ec87b206') in 0.007575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 215.510680 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0a2998b6a03f8afb39b0cd45877385f') in 0.005721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 47.199441 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b08ff0bbf0eed881a8644bfa62b19c6') in 0.008755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 89.762513 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e102e954575f73402966e689b5dda40') in 0.005481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 53.050380 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff8d4bb2d91971e8a4e45b85a1e634f') in 0.005408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 5.251694 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed4a2d5b3536c1e19a9fac39fe06fc94') in 0.004724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 8.103489 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5928e03751210d4ecd11f16331b7b6b') in 0.005446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 4.318522 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa151a555e9665792147c6ab991a686') in 0.004563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 171.984603 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f503fc6f3cd08fb5bf2d965ac6e2398') in 0.004857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 86.159329 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e6537fe140c02b6084b072d9ce16886') in 0.007082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 239.474204 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6bf91e8b282bb9d7eb13b6318d2b50c') in 0.011893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 268.911865 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '219dc5972c937e8e4ffe6c2d42e7f43b') in 0.007993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 9.461612 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faad412f1c7313e00a9ed55b6928e0a4') in 0.005390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 11.938635 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc91b5b8119871decf8bf04a4215367') in 0.005272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 22.977865 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '050675e0beebf0d7c5866738785426d8') in 0.007221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 127.343405 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '919b4d2140183586109dab4227580700') in 0.005242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 99.825966 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e1d36cd6afa862659ffb40537928a3') in 0.006285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 125.478539 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d6eb7bcbd469b4dadb31b38f679aadb') in 0.008648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 18.383892 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1526f3c3a444a196bb9e2c321cd8c90c') in 0.006744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 3.053676 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ff070d69a3e50bba2daebe2b38d447') in 0.006202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 138.567562 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ca0be8b7e1a27ffe8cba3f277b6aa79') in 0.005081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 145.631781 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ee14cc33fc36206e2182d9771ba7c2') in 0.011983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 4.252286 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e990d0d65f5dddd9f5cfc8c9b3a9e824') in 0.007650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 2.846388 seconds.
+  path: Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx
+  artifactKey: Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Effects/Etc/VfxGraph/Player/Explosion.vfx using Guid(df4b44b4b037a354d882908a8e19738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2c6fa08ced8d5de41839fc0835889ff') in 0.012424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
