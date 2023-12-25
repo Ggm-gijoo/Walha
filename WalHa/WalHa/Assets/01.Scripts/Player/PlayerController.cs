@@ -112,8 +112,6 @@ public class PlayerController : MonoSingleton<PlayerController>, IHittable
 
         if (Input.GetKeyDown(KeyCode.L)) StartCoroutine(Soul(nowSoul));
 
-        if (Input.GetKeyDown(KeyCode.N)) StartCoroutine(Skill());
-
         if (Input.GetKeyDown(KeyCode.Tab))
         {
             nowSoul = (nowSoul + 1) % SoulManager.Instance.soulSprites.Length;
@@ -302,37 +300,6 @@ public class PlayerController : MonoSingleton<PlayerController>, IHittable
         yield return new WaitForSeconds(0.15f);
         isAct = false;
     }
-    private IEnumerator Skill()
-    {
-        if (mp < 50) yield break;
-        
-        isAct = true;
-        isInvincible = true;
-
-        mp -= 50;
-
-        Managers.Pool.PoolManaging("P_Skill", transform);
-
-        anim.SetTrigger(_attack);
-        anim.SetInteger(_attackMove, 0);
-
-        Time.timeScale = 0.1f;
-        yield return new WaitForSecondsRealtime(1f);
-        
-        Collider2D[] cols = Physics2D.OverlapBoxAll(transform.position, new Vector2(25, 15), 0, 1 << 7);
-        foreach(Collider2D col in cols)
-        {
-            CinemachineCameraShaking.Instance.CameraShake(10f, 0.1f);
-            col.GetComponent<IHittable>().OnDamage(100, transform);
-        }
-
-        yield return new WaitForSecondsRealtime(0.3f);
-        Time.timeScale = 1f;
-        isAct = false;
-        isInvincible = false;
-
-        yield return null;
-    }
     private IEnumerator Parry()
     {
         if (!isGround || mp < 10) yield break;
@@ -402,11 +369,15 @@ public class PlayerController : MonoSingleton<PlayerController>, IHittable
         float dir = sprite.flipX ? -1 : 1;
 
         beamVfx.transform.localScale = new Vector2(dir, 1);
-        Managers.Sound.Play("P_Beam");
 
         beamVfx.SetActive(false);
         beamVfx.SetActive(true);
 
+        Time.timeScale = 0.01f;
+        yield return new WaitForSecondsRealtime(2f);
+        Time.timeScale = 1f;
+
+        Managers.Sound.Play("P_Beam");
         CinemachineCameraShaking.Instance.CameraShake(13, 0.2f);
 
         Collider2D[] cols = Physics2D.OverlapBoxAll(beamVfx.transform.position + Vector3.right * 17f * dir, new Vector2(30f, 3f), 0, 1 << 7);
